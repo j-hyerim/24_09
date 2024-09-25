@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* animation */
+@keyframes head{
+    0%{
+        width: 0%;
+        opacity: 0;
+    }
+    100%{
+        width: 80%;
+        opacity: 1;
+    }
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes opacity_text{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(5px);
+
+    }
+}
+@keyframes head_border{
+    0%{
+        width: 1px;
+        border-bottom: 1px solid #8c8c8c;
+
+    }
+    100%{
+        width: 100px;
+        border-bottom: 1px solid #272727;
+
+    }
+}
+@keyframes badge{
+    0%{
+        transform:translateY(0px);
+        transition: all 1s;
+
+    }
+    100%{
+        transform:translateY(5px);
+        transition: all 1s;
+
+    }
+}

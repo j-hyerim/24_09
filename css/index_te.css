@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@media screen and (min-width: 830px) and (max-width: 1050px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* header */
+    #head>div{
+        width: 95%;
+    }
+header nav>ul ul{
+        display: none;
+    }
+
+    /* main_dish */
+    #dish{width: 95%; margin: 0 auto;}
+    #main_dish{
+        width: 100%;
+        /* padding: 0 30px; */
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .slide_img{
+        /* width: 200%; */
+        margin: 1%;
+        /* margin: 0 10px; */
+        aspect-ratio: 1 / 1; /* 정사각형 비율 */
+        object-fit: cover;
+    }
+    #main_dish .title{
+        transform: translate(0px, 25%);
+        max-width: 380px;
+        padding-left: 20px;
+    }
+    .f_m40{
+        margin: 20px 0 0;
+    }
+
+    /* insta */
+    #insta>div{
+        width: 740px;
+    }
+
+    /* reservation */
+    #reservation{
+        height: 140px;
+    }
+    #reservation a{
+        padding: 15px 0 0;
+    }
+    #reservation_text{
+        margin: 20px 50px 0 0;
+    }
+    #reservation_img>img{
+    margin: 0 0px 0 0;
+    height: 100px;
+    }
+
+    /* map */
+    #map>div{
+        width: 740px;
+    }
+    .title02{margin: 0;}
+
+
+    /* footer */
+    #footer{
+        width: 95%;
+    }
+
+
+    /* badge */
+    #badge {
+    right: 30px;
+    }
+
+}

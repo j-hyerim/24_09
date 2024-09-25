@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>심야식당 하리</title>
+    <style>
+        /* 초기 상태는 완전히 보이게 설정 */
+        body {
+            opacity: 1;
+            transition: opacity 1s ease;
+        }
+
+        /* 페이드 아웃 상태 */
+        .fade-out {
+            opacity: 0;
+        }
+    </style>
+    <script>
+    window.onload = function() {
+        // 현재 페이지의 파일명을 가져옴
+        var currentPage = window.location.pathname.split("/").pop().toLowerCase();
+
+        // 현재 페이지가 index.html일 때만 리다이렉션
+        if (currentPage === 'index.html' || currentPage === '') {
+            var width = window.innerWidth;
+
+            var targetUrl = '';
+
+            if (width >= 800) {
+                // 절대 URL로 변경하세요
+                targetUrl = 'http://hari.dothome.co.kr/pc.index.html';
+            } else {
+                // 절대 URL로 변경하세요
+                targetUrl = 'http://hari.dothome.co.kr/m.index.html';
+            }
+
+            // 페이드 아웃 클래스 추가
+            document.body.classList.add('fade-out');
+
+            // 트랜지션 완료 후 리다이렉션
+            document.body.addEventListener('transitionend', function() {
+                window.location.href = targetUrl;
+            }, { once: true }); // 이벤트 리스너를 한 번만 실행하도록 설정
+        }
+    };
+</script>
+
+    <style>
+        body{
+            background-color: #fff;
+            position: relative;
+            width: 100%;
+            height: 90vh;
+        }
+        img{
+            width: 80px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/zzlogo.jpg" alt="logo">
+</body>
+</html>

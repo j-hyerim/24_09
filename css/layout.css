@@ -1,0 +1,17 @@
+@import url(./base.css);
+@import url(./reset.css);
+@import url(./index_pc.css);
+@import url(./index_te.css);
+@import url(./index_mo.css);
+@import url(./intro_pc.css);
+@import url(./keyframe.css);
+
+/* @media screen and (min-width: 830px) {
+    #pc{display: block;}
+    #mo{display: none;}
+}
+@media screen and (max-width: 829px) {
+    #mo{display: block;}
+    #pc{display: none;}
+} */
+

@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+
+
+/* font */
+
+h2,p,a,li {
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: normal;
+}
+
+/* base */
+section>div{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+.f_h1{    
+    font-size: 30px; 
+}
+.f_h1 span{    
+    font-size: 50px; 
+    display: inline-block;
+}
+h2{    
+    font-size: 30px; 
+    font-weight: 700;
+    line-height:150%;
+    color:#272727;
+}
+p{
+    font-size: 22px;
+    font-weight: 200;
+    line-height:150%;
+    color:#272727;
+}
+
+/* function style */
+.lh_15px{
+    line-height: 20px;
+}
+.lh_30px{
+    line-height: 40px;
+}
+.m_color{
+    color: #d2443f;
+}
+.w_font{
+    color: #ffffff;
+}
+.f_h2{font-size: 30px;}
+.f_m20{margin: 20px 0;}
+.f_m10{margin: 10px 0;}
+.f_p20{padding: 20px 0;}
+.f_p_l_10{padding: 0 0 0 10px;}
+.f_p_l_20{padding: 0 0 0 20px;}
+.f_p10{padding: 10px 0;}
+.f_m40{margin: 40px 0 0;}
+.f_m50{margin: 80px 0 0;}
+.f_p40{padding: 40px 0 0;}
+.f_p50{padding: 80px 0 0;}
+.f_p{font-size: 22px;}
+.m80{}
+.f_18{
+    font-size: 18px;
+    line-height:150%;
+}
+.f_16{
+    font-size: 16px;
+    line-height:150%;
+}
+.f_14{
+    font-size: 14px;
+    line-height:150%;
+}
+.f_w{font-weight: bold;}
+.f_d10{margin: 0 0 0 10px;}
+.f_center{
+    text-align: center;
+}
+
+
+/* line */
+.line{
+    width: 2px;height: 30px;
+    position:relative;
+    border-left: 1px solid #272727;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin: 30px 0 20px;
+}
+.line02{
+    border-left: 1px solid #272727;
+    height: 85px;
+    margin: 27px 27px 27px 40px;
+}
+
+/* header active menu */
+.active{
+    font-weight: bold;
+    color: #d2443f;
+    /* color: #272727; */
+    transition: all 0.4s;
+}
+.active:hover{
+    color: #d78582;
+    /* color: #8c8c8c; */
+    transition: all 0.4s;
+}
+
+/* btn */
+.btn{
+    width: 200px;
+    height: 40px;
+}
+.btn>a{
+    height: 40px;
+    border-radius: 15px;
+    background: #d2443f;
+    display: inline-block;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+.btn>a:hover{
+    background: #fff;
+    border:1px solid #d2443f;
+    color: #d2443f;
+    transition: all 0.4s;
+}
+.btn02>a{
+    height: 40px;
+    border-radius: 15px;
+    background: #ffffff;
+    display: inline-block;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    border:1px solid #d2443f;
+    color: #d2443f;
+}
+.btn02>a:hover{
+    background: #d2443f;
+    border:1px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.4s;
+}

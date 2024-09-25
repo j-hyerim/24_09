@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+@media screen and (max-width: 829px) and (min-width:731px) {
+    .f_h1,.f_18{
+        display: none;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    main{overflow-x: hidden;}
+    /* #map{display: none;} */
+
+    /* header */
+    #head{
+        width: 100vw;
+        position: fixed;
+        padding: 20px 0;
+        z-index: 15;
+    }
+    #head>div{
+        margin: 0 auto;
+        width: 95%;
+        height: 70px;
+        background-color: #ffffff;
+        border-radius: 100px;
+        box-shadow: 1px 0px 60px #27272758;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        box-sizing: border-box;
+        animation: head ease-in-out 1s 1;
+    }
+header nav>ul ul{
+        display: none;
+    }
+    /* main_dish */
+
+    /* main_dish */
+    #dish{width: 95%; margin: 0 auto;}
+    #main_dish{
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .slide .slide_img{
+        max-width: 50%;
+        margin: 30px auto 20px;
+        overflow: hidden;
+        /* object-fit: cover; */
+    }
+    /* .slide{
+        display: f;
+    } */
+    #main_dish .title{
+        transform: translate(0px, 25%);
+        max-width: 40%;
+        padding: 0% 3% 2% 4%;
+    }
+    .f_m40{
+        margin: 20px 0 0;
+    }
+
+    /* insta */
+    #insta>div{
+        width:90%;
+        height: auto;
+    }
+
+    /* youtube */
+    #youtube{
+        width: 100%;
+    }
+
+
+    /* reservation */
+    #reservation{
+        height: 250px;
+    }
+    #reservation>a>div{
+        display: block;
+    }
+    #reservation a{
+        padding: 35px 0 0;
+    }
+    #reservation_text{
+        margin: 20px 0 0 0;
+    }
+    #reservation_text p, #reservation h2{
+        text-align: center;
+    }
+    #reservation_img{
+        background: none;
+        margin: 0;
+    }
+    #reservation_img>img{
+        width: 100%;
+        margin: 0 auto;
+        height: 80px;
+    }
+
+    /* map */
+    #map{
+        width: 100vw;
+        margin: 80px 0 ;
+    }
+    #map>div{
+        width: 100%;
+    }
+    
+    div.title02{
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    div.title02 li{
+        width: 100%;
+        padding: 20px 0 0 ;
+        margin: 0;
+    }
+    div.title02 li p{
+        padding: 0 0 0 30px;
+    }
+    .slide02 {
+        flex-wrap: wrap;
+    }
+    .slide02 iframe{
+        width: 100vw;
+    }
+
+    /* footer */
+    #footer{
+        width: 100%;
+        height: 300px;
+        border-radius: 0;
+        margin:  0 auto;
+        display: block;
+        border-radius: 0 50px 0 0;
+    }
+    #footer>div:first-child{
+        padding: 0 20px;
+    }
+
+    #footer img{
+        margin: 0 10px 0 0;
+        float: right;
+        width: 50px;
+    }
+
+    /* badge */
+    #badge {
+    right: 30px;
+    }
+
+    /* none */
+    .mo_none{display: none;}
+
+
+.btn{
+    width: 95%;
+    margin:  0 auto;
+    padding: 25px 0 ;
+}
+
+} 
+
+@media screen and (max-width: 730px) {
+
+#main_dish{
+    width: 100%;
+    height: 90vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    }
+    .slide .slide_img{
+    max-width: 90%;
+    max-height: 100%;
+    height: 40vh;
+    margin: 40px auto 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    .slide .slide_img>img{
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    }
+    .slide{display: block;}
+    #main_dish .title{
+    text-align: left;
+    max-width: 90%;
+    transform: translateY(37px);
+    padding:10px 3% 2%;
+    }
+    .f_m40{
+    margin: 20px 0 0;
+    }
+
+
+    /* map */
+    #map{
+        width: 100vw;
+        margin: 80px 0 ;
+    }
+    #map>div{
+        width: 100%;
+    }
+    
+    div.title02{
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    div.title02 li{
+        width: 100%;
+        padding: 20px 0 0 ;
+        margin: 0;
+    }
+    div.title02 li p{
+        padding: 0 0 0 30px;
+    }
+    .slide02 {
+        flex-wrap: wrap;
+    }
+    .slide02 iframe{
+        width: 100vw;
+    }
+
+    /* footer */
+    #footer{
+        width: 100%;
+        height: 300px;
+        border-radius: 0;
+        margin:  0 auto;
+        display: block;
+        border-radius: 0 50px 0 0;
+    }
+    #footer>div:first-child{
+        padding: 0 20px;
+    }
+
+    #footer img{
+        margin: 0 10px 0 0;
+        float: right;
+        width: 50px;
+    }
+}
